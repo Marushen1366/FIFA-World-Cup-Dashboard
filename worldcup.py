@@ -23,6 +23,7 @@ choropleth_map.show()
 
 # Dash
 app = Dash(__name__)
+server = app.server
 app.layout = html.Div([
     html.H1("FIFA World Cup Dashboard", style={'textAlign': 'center'}),
     dcc.Graph(id="choropleth", figure=choropleth_map),
