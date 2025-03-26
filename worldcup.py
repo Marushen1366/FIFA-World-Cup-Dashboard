@@ -2,6 +2,9 @@ import pandas as pd
 import plotly.express as px
 from dash import Dash, dcc, html, Input, Output
 
+# Render Website: https://fifa-world-cup-dashboard.onrender.com
+# NO PASSWORD
+
 # Load the csv file then count the wins per country
 df = pd.read_csv('worldcup_data.csv')
 
